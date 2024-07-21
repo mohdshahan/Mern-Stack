@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <title>Interactive Home Page</title>
+    <style>
+      
+        .hero-bg {
+            background: url('https://source.unsplash.com/random/1600x900') no-repeat center center;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+   
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto px-4 py-2 flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-gray-800">MyWebsite</a>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-800 hover:text-gray-600">Home</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">About</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Services</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+ 
+    <section class="hero-bg h-screen flex items-center justify-center text-center text-white">
+        <div>
+            <h1 class="text-5xl font-bold mb-4">Welcome to MyWebsite</h1>
+            <p class="text-lg mb-8">Creating beautiful and interactive websites</p>
+            <a href="#about" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Learn More</a>
+        </div>
+    </section>
+
+    <section id="about" class="py-12">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">About Us</h2>
+            <p class="text-lg mb-8">We are a team of passionate web developers and designers dedicated to creating beautiful and interactive websites for our clients.</p>
+            <a href="#services" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Our Services</a>
+        </div>
+    </section>
+
+  
+    <section id="services" class="py-12 bg-gray-200">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Our Services</h2>
+            <div class="flex justify-center space-x-4">
+                <div class="bg-white shadow-md rounded p-6 w-1/3">
+                    <h3 class="text-xl font-bold mb-2">Web Development</h3>
+                    <p>We build responsive and scalable web applications.</p>
+                </div>
+                <div class="bg-white shadow-md rounded p-6 w-1/3">
+                    <h3 class="text-xl font-bold mb-2">Web Design</h3>
+                    <p>We design visually appealing and user-friendly websites.</p>
+                </div>
+                <div class="bg-white shadow-md rounded p-6 w-1/3">
+                    <h3 class="text-xl font-bold mb-2">SEO Optimization</h3>
+                    <p>We optimize your website to rank higher on search engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="bg-white shadow-md py-6">
+        <div class="container mx-auto px-4 text-center">
+            <p>&copy; 2024 MyWebsite. All rights reserved.</p>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-800 hover:text-gray-600">Privacy Policy</a>
+                <a href="#" class="text-gray-800 hover:text-gray-600">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
