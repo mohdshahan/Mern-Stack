@@ -1,6 +1,6 @@
 import React from 'react'
 import classes from'./login.module.css';
-import Input from '../component/Input';
+import Input from '../../../component/Input';
 const Login = () => {
   return (
     <div>
